@@ -1,0 +1,184 @@
+2023-05-21 22:50:51,685 INFO    StreamThr :4222 [internal.py:wandb_internal():86] W&B internal server running at pid: 4222, started at: 2023-05-21 22:50:51.684831
+2023-05-21 22:50:51,689 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: status
+2023-05-21 22:50:51,698 INFO    WriterThread:4222 [datastore.py:open_for_write():85] open: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/run-fxv16epl.wandb
+2023-05-21 22:50:51,699 DEBUG   SenderThread:4222 [sender.py:send():375] send: header
+2023-05-21 22:50:51,708 DEBUG   SenderThread:4222 [sender.py:send():375] send: run
+2023-05-21 22:50:51,996 INFO    SenderThread:4222 [dir_watcher.py:__init__():219] watching files in: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files
+2023-05-21 22:50:51,997 INFO    SenderThread:4222 [sender.py:_start_run_threads():1124] run started: fxv16epl with start time 1684709451.685102
+2023-05-21 22:50:51,997 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: check_version
+2023-05-21 22:50:51,998 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: summary_record
+2023-05-21 22:50:51,999 INFO    SenderThread:4222 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 22:50:51,999 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: check_version
+2023-05-21 22:50:52,172 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: run_start
+2023-05-21 22:50:52,192 DEBUG   HandlerThread:4222 [system_info.py:__init__():31] System info init
+2023-05-21 22:50:52,192 DEBUG   HandlerThread:4222 [system_info.py:__init__():46] System info init done
+2023-05-21 22:50:52,193 INFO    HandlerThread:4222 [system_monitor.py:start():181] Starting system monitor
+2023-05-21 22:50:52,193 INFO    SystemMonitor:4222 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-21 22:50:52,193 INFO    HandlerThread:4222 [system_monitor.py:probe():201] Collecting system info
+2023-05-21 22:50:52,194 INFO    SystemMonitor:4222 [interfaces.py:start():190] Started cpu monitoring
+2023-05-21 22:50:52,196 INFO    SystemMonitor:4222 [interfaces.py:start():190] Started disk monitoring
+2023-05-21 22:50:52,197 INFO    SystemMonitor:4222 [interfaces.py:start():190] Started gpu monitoring
+2023-05-21 22:50:52,200 INFO    SystemMonitor:4222 [interfaces.py:start():190] Started memory monitoring
+2023-05-21 22:50:52,204 INFO    SystemMonitor:4222 [interfaces.py:start():190] Started network monitoring
+2023-05-21 22:50:52,299 DEBUG   HandlerThread:4222 [system_info.py:probe():195] Probing system
+2023-05-21 22:50:52,303 DEBUG   HandlerThread:4222 [system_info.py:_probe_git():180] Probing git
+2023-05-21 22:50:52,316 DEBUG   HandlerThread:4222 [system_info.py:_probe_git():188] Probing git done
+2023-05-21 22:50:52,316 DEBUG   HandlerThread:4222 [system_info.py:probe():240] Probing system done
+2023-05-21 22:50:52,316 DEBUG   HandlerThread:4222 [system_monitor.py:probe():210] {'os': 'Linux-5.14.0-1057-oem-x86_64-with-glibc2.35', 'python': '3.10.9', 'heartbeatAt': '2023-05-21T22:50:52.299469', 'startedAt': '2023-05-21T22:50:51.659127', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'active-projects/summary-scoring/src/hp_search.ipynb', 'root': '/home/jovyan/active-projects/summary-scoring', 'git': {'remote': 'https://github.com/learlab/summary-scoring.git', 'commit': '9b6ea5479c3101e4cac47d55ec87f37bb9627fc7'}, 'email': 'tiedaar@gmail.com', 'host': 'jupyter-wesley-2dmorris', 'username': 'jovyan', 'executable': '/home/jovyan/conda_envs/WesleyEnv/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2073.9012031250004, 'min': 800.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2899.997, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 909.402, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 946.394, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2099.999, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}, {'current': 2100.0, 'min': 800.0, 'max': 3200.0}], 'disk': {'total': 929.1299057006836, 'used': 853.1200408935547}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 251.54832458496094}}
+2023-05-21 22:50:52,317 INFO    HandlerThread:4222 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-21 22:50:52,317 INFO    HandlerThread:4222 [system_monitor.py:probe():214] Publishing system info
+2023-05-21 22:50:52,317 DEBUG   HandlerThread:4222 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-21 22:50:52,318 DEBUG   HandlerThread:4222 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-21 22:50:52,318 DEBUG   HandlerThread:4222 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-21 22:50:53,001 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/wandb-summary.json
+2023-05-21 22:50:53,002 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/conda-environment.yaml
+2023-05-21 22:50:53,002 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/requirements.txt
+2023-05-21 22:50:58,000 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/conda-environment.yaml
+2023-05-21 22:50:58,019 DEBUG   HandlerThread:4222 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-21 22:50:58,021 INFO    HandlerThread:4222 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-21 22:50:58,026 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: status_report
+2023-05-21 22:50:58,026 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-21 22:50:58,027 DEBUG   SenderThread:4222 [sender.py:send():375] send: files
+2023-05-21 22:50:58,028 INFO    SenderThread:4222 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-21 22:50:58,062 DEBUG   SenderThread:4222 [sender.py:send():375] send: telemetry
+2023-05-21 22:50:58,063 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-21 22:50:58,064 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: stop_status
+2023-05-21 22:50:58,443 INFO    wandb-upload_0:4222 [upload_job.py:push():137] Uploaded file /tmp/tmpl8vmf07swandb/u2s1khsk-wandb-metadata.json
+2023-05-21 22:50:59,001 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/wandb-metadata.json
+2023-05-21 22:51:00,275 DEBUG   SenderThread:4222 [sender.py:send():375] send: config
+2023-05-21 22:51:00,276 DEBUG   SenderThread:4222 [sender.py:send():375] send: metric
+2023-05-21 22:51:00,276 DEBUG   SenderThread:4222 [sender.py:send():375] send: telemetry
+2023-05-21 22:51:00,277 DEBUG   SenderThread:4222 [sender.py:send():375] send: metric
+2023-05-21 22:51:00,277 WARNING SenderThread:4222 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-05-21 22:51:00,277 DEBUG   SenderThread:4222 [sender.py:send():375] send: telemetry
+2023-05-21 22:51:00,277 DEBUG   SenderThread:4222 [sender.py:send():375] send: exit
+2023-05-21 22:51:00,277 INFO    SenderThread:4222 [sender.py:send_exit():598] handling exit code: 1
+2023-05-21 22:51:00,277 INFO    SenderThread:4222 [sender.py:send_exit():600] handling runtime: 8
+2023-05-21 22:51:00,280 INFO    SenderThread:4222 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 22:51:00,280 INFO    SenderThread:4222 [sender.py:send_exit():606] send defer
+2023-05-21 22:51:00,280 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,280 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-21 22:51:00,281 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,281 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-21 22:51:00,281 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 1
+2023-05-21 22:51:00,281 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,281 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-21 22:51:00,281 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,281 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-21 22:51:00,281 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 2
+2023-05-21 22:51:00,281 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,281 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-21 22:51:00,281 INFO    HandlerThread:4222 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-21 22:51:00,282 DEBUG   SystemMonitor:4222 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-21 22:51:00,282 DEBUG   SystemMonitor:4222 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-21 22:51:00,283 DEBUG   SystemMonitor:4222 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-21 22:51:00,283 INFO    HandlerThread:4222 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-21 22:51:00,286 INFO    HandlerThread:4222 [interfaces.py:finish():202] Joined disk monitor
+2023-05-21 22:51:00,296 INFO    HandlerThread:4222 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-21 22:51:00,296 INFO    HandlerThread:4222 [interfaces.py:finish():202] Joined memory monitor
+2023-05-21 22:51:00,297 INFO    HandlerThread:4222 [interfaces.py:finish():202] Joined network monitor
+2023-05-21 22:51:00,298 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,298 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-21 22:51:00,298 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 3
+2023-05-21 22:51:00,298 DEBUG   SenderThread:4222 [sender.py:send():375] send: stats
+2023-05-21 22:51:00,299 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,299 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-21 22:51:00,300 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,300 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-21 22:51:00,300 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 4
+2023-05-21 22:51:00,300 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,300 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-21 22:51:00,301 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,301 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-21 22:51:00,301 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 5
+2023-05-21 22:51:00,301 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,301 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-21 22:51:00,302 DEBUG   SenderThread:4222 [sender.py:send():375] send: summary
+2023-05-21 22:51:00,302 INFO    SenderThread:4222 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-21 22:51:00,303 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,303 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-21 22:51:00,303 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 6
+2023-05-21 22:51:00,303 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,303 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-21 22:51:00,304 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,304 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-21 22:51:00,310 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: status_report
+2023-05-21 22:51:00,498 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 7
+2023-05-21 22:51:00,498 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:00,499 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-21 22:51:00,499 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:00,499 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-21 22:51:01,004 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/config.yaml
+2023-05-21 22:51:01,004 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/wandb-summary.json
+2023-05-21 22:51:01,005 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/output.log
+2023-05-21 22:51:01,279 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-21 22:51:02,088 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 8
+2023-05-21 22:51:02,089 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: poll_exit
+2023-05-21 22:51:02,089 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:02,090 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-21 22:51:02,091 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:02,091 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-21 22:51:02,091 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 9
+2023-05-21 22:51:02,091 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:02,092 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-21 22:51:02,092 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:02,092 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-21 22:51:02,093 INFO    SenderThread:4222 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-21 22:51:02,280 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-21 22:51:03,005 INFO    Thread-12 :4222 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/output.log
+2023-05-21 22:51:03,006 INFO    SenderThread:4222 [dir_watcher.py:finish():395] scan: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files
+2023-05-21 22:51:03,007 INFO    SenderThread:4222 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/conda-environment.yaml conda-environment.yaml
+2023-05-21 22:51:03,007 INFO    SenderThread:4222 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/requirements.txt requirements.txt
+2023-05-21 22:51:03,008 INFO    SenderThread:4222 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/output.log output.log
+2023-05-21 22:51:03,015 INFO    SenderThread:4222 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/wandb-summary.json wandb-summary.json
+2023-05-21 22:51:03,024 INFO    SenderThread:4222 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/wandb-metadata.json wandb-metadata.json
+2023-05-21 22:51:03,024 INFO    SenderThread:4222 [dir_watcher.py:finish():409] scan save: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/config.yaml config.yaml
+2023-05-21 22:51:03,037 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 10
+2023-05-21 22:51:03,039 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: poll_exit
+2023-05-21 22:51:03,039 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:03,040 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-21 22:51:03,041 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:03,048 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-21 22:51:03,049 INFO    SenderThread:4222 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-21 22:51:03,281 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-21 22:51:03,282 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: poll_exit
+2023-05-21 22:51:03,359 INFO    wandb-upload_0:4222 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/conda-environment.yaml
+2023-05-21 22:51:03,517 INFO    wandb-upload_4:4222 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/config.yaml
+2023-05-21 22:51:03,541 INFO    wandb-upload_1:4222 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/requirements.txt
+2023-05-21 22:51:03,561 INFO    wandb-upload_2:4222 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/output.log
+2023-05-21 22:51:03,573 INFO    wandb-upload_3:4222 [upload_job.py:push():137] Uploaded file /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/files/wandb-summary.json
+2023-05-21 22:51:03,774 INFO    Thread-11 (_thread_body):4222 [sender.py:transition_state():626] send defer: 11
+2023-05-21 22:51:03,775 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:03,775 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-21 22:51:03,776 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:03,776 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-21 22:51:03,777 INFO    SenderThread:4222 [file_pusher.py:join():172] waiting for file pusher
+2023-05-21 22:51:03,777 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 12
+2023-05-21 22:51:03,777 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:03,777 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-21 22:51:03,778 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:03,778 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-21 22:51:03,867 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 13
+2023-05-21 22:51:03,867 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:03,868 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-21 22:51:03,868 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:03,869 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-21 22:51:03,869 INFO    SenderThread:4222 [sender.py:transition_state():626] send defer: 14
+2023-05-21 22:51:03,869 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: defer
+2023-05-21 22:51:03,870 INFO    HandlerThread:4222 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-21 22:51:03,870 DEBUG   SenderThread:4222 [sender.py:send():375] send: final
+2023-05-21 22:51:03,870 DEBUG   SenderThread:4222 [sender.py:send():375] send: footer
+2023-05-21 22:51:03,871 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: defer
+2023-05-21 22:51:03,871 INFO    SenderThread:4222 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-21 22:51:03,873 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-21 22:51:03,874 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: server_info
+2023-05-21 22:51:03,874 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-21 22:51:03,875 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: poll_exit
+2023-05-21 22:51:03,875 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-21 22:51:03,876 DEBUG   SenderThread:4222 [sender.py:send_request():402] send_request: server_info
+2023-05-21 22:51:03,991 DEBUG   HandlerThread:4222 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-21 22:51:03,992 INFO    HandlerThread:4222 [handler.py:finish():845] shutting down handler
+2023-05-21 22:51:04,875 INFO    WriterThread:4222 [datastore.py:close():298] close: /home/jovyan/active-projects/summary-scoring/src/wandb/run-20230521_225051-fxv16epl/run-fxv16epl.wandb
+2023-05-21 22:51:04,989 INFO    SenderThread:4222 [sender.py:finish():1550] shutting down sender
+2023-05-21 22:51:04,990 INFO    SenderThread:4222 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-21 22:51:04,990 INFO    SenderThread:4222 [file_pusher.py:join():172] waiting for file pusher

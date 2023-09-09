@@ -1,0 +1,10 @@
+wandb_version: 1
+
+dropout:
+  value: 0.18417396384610477
+epochs:
+  value: 3
+learning_rate:
+  value: 1.3149419870006063e-05
+weight_decay:
+  value: 0.3
